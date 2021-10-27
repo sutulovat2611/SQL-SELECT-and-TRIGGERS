@@ -1,13 +1,5 @@
---****PLEASE ENTER YOUR DETAILS BELOW****
 --cgh_queries.sql
-
---Student ID: 30806151
---Student Name: Tatiana Sutulova
---Tutorial No: Assignment 2B
-
-/* Comments for your marker:
-*/
-
+--Author: Tatiana Sutulova
 
 /*
     Q1: 
