@@ -1,13 +1,5 @@
---****PLEASE ENTER YOUR DETAILS BELOW****
 --cgh_triggers.sql
-
---Student ID: 30806151
---Student Name: Tatiana Sutulova
---Tutorial No: Assignment 2B
-
-/* Comments for your marker:
-*/
-
+--Author: Tatiana Sutulova
 
 /*
     Trigger1:
@@ -69,13 +61,13 @@ rollback;
 /*
     Trigger2:
     When a patient is discharged, the discharge date and time value is added 
-    into the patient’s admission entry. 
+    into the patientâ€™s admission entry. 
     Once added, the discharge date and time cannot be changed. 
     Code a single trigger that: 
         - check that the discharge date and time is valid, ie. it cannot be 
         before the admission date time or, if any, the last 
-        admission procedure’s start date and time 
-        (you may ignore the procedure’s duration), and 
+        admission procedureâ€™s start date and time 
+        (you may ignore the procedureâ€™s duration), and 
         - automatically calculate the value of admission total cost. 
         The admission total cost is the total of patient costs and item costs 
         of all procedures related to the admission plus the admin cost. 
